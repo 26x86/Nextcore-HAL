@@ -1,0 +1,70 @@
+{
+  "schema": "26x86.repository-files/1",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 30,
+      "sha256": "9319637ee361d94b77df3b8f63b650075d6933135e97a0e9b7fdf4240fe7b95c"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 284,
+      "sha256": "c4c6f19cec299d6e4fbfcd40e68c0e621624cff246206088a784631d72f6b4be"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 22,
+      "sha256": "2a58829f54c2e8f11df2f4f4e94b1c06962eee8a1bd17bab47a9f2221eac95c9"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 242,
+      "sha256": "3847c62b27fe46055b0a31d25dabe20d2679730f5fb6697835ad4488d58af7c6"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1865,
+      "sha256": "64d8c31222df29cfd8327944815b8d6b3c202a45540d49524a4617f50825a5c4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 319,
+      "sha256": "764045398e8182ce43dd16e35098391170e8e39de3b7ccad483fdf797cd689c8"
+    },
+    {
+      "path": "src/acpi_translator.rs",
+      "bytes": 1875,
+      "sha256": "a392c0b323e47052982f1bfa25aa09cf9b2b5c00a8e3301afa376435328ad8f3"
+    },
+    {
+      "path": "src/device_tree.rs",
+      "bytes": 4715,
+      "sha256": "8a014112b7a8724eff51a0a4af8ffdbd3a1db462ae5ddad4b07ac97ebbeb425f"
+    },
+    {
+      "path": "src/error.rs",
+      "bytes": 985,
+      "sha256": "10fe5332392ab751c56f8714187107440b68a27381ff6b98bb29955038850025"
+    },
+    {
+      "path": "src/lib.rs",
+      "bytes": 112,
+      "sha256": "fc4a23a295161070bd4786346c61e4b7e975ef664d18c8e61cac7b929dc40a73"
+    },
+    {
+      "path": "src/pci_translator.rs",
+      "bytes": 2836,
+      "sha256": "3ce4f032686fd8626caba75c2d268c7a99d4a6bf69d14a6142a35ecb0e3a93b3"
+    },
+    {
+      "path": "src/smbios_translator.rs",
+      "bytes": 3908,
+      "sha256": "9c55af6673187ef3b3b12e5ea21070e72f60b1469daedb30762f343770b9e70c"
+    },
+    {
+      "path": "tests/hal_translate.rs",
+      "bytes": 4283,
+      "sha256": "bf4adbdba90240990816df51fc4d31af864e3146e5cfcc9519eb07f1ba5cc43e"
+    }
+  ]
+}
