@@ -1,4 +1,4 @@
-name: Nextcore-HAL CI
+name: NextCore HAL CI
 on:
   push:
   pull_request:

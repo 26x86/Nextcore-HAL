@@ -3,33 +3,43 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 30,
-      "sha256": "9319637ee361d94b77df3b8f63b650075d6933135e97a0e9b7fdf4240fe7b95c"
+      "bytes": 28,
+      "sha256": "4b0f1fc438f30f25abe421b7542e9f3803b8b5c15ca3695614222e2bc547a9fe"
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 284,
-      "sha256": "c4c6f19cec299d6e4fbfcd40e68c0e621624cff246206088a784631d72f6b4be"
+      "bytes": 270,
+      "sha256": "28b595997d658442d084b66690bfede681131796aaa772c67a27b6df4c8ec3ed"
     },
     {
       "path": ".gitignore",
-      "bytes": 22,
-      "sha256": "2a58829f54c2e8f11df2f4f4e94b1c06962eee8a1bd17bab47a9f2221eac95c9"
+      "bytes": 20,
+      "sha256": "9cc2c8cc102e0b2a0a177c8f594abc9b9776300a04473c24b45d52c1007a4119"
     },
     {
       "path": "Cargo.toml",
-      "bytes": 242,
-      "sha256": "3847c62b27fe46055b0a31d25dabe20d2679730f5fb6697835ad4488d58af7c6"
+      "bytes": 268,
+      "sha256": "c967959335833080189b63fec78fd243f7116f638880dec10f3d18d7d3266a1c"
     },
     {
       "path": "LICENSE.txt",
-      "bytes": 1865,
-      "sha256": "64d8c31222df29cfd8327944815b8d6b3c202a45540d49524a4617f50825a5c4"
+      "bytes": 1851,
+      "sha256": "77c458ccb6116400cf960f8951630bc3b8b34731b56ffbd736b95c2b78449104"
     },
     {
       "path": "README.md",
-      "bytes": 319,
-      "sha256": "764045398e8182ce43dd16e35098391170e8e39de3b7ccad483fdf797cd689c8"
+      "bytes": 467,
+      "sha256": "be7a30f29d7b5f80b3c977d58aba9853001efc0d5ac4e3ebcba9d60a574ff473"
+    },
+    {
+      "path": "examples/inspect_firmware.rs",
+      "bytes": 6807,
+      "sha256": "3c24a1dc026d1f1d683ae07cceae5dc07f45828ea97c5efc066a23f3594fd7cf"
+    },
+    {
+      "path": "src/acpi_raw.rs",
+      "bytes": 15399,
+      "sha256": "55bc3d84e8b9ddedfd6da06ad9f090f86a0c7295ec44f3e5102f340915d0f3a2"
     },
     {
       "path": "src/acpi_translator.rs",
@@ -43,13 +53,18 @@
     },
     {
       "path": "src/error.rs",
-      "bytes": 985,
-      "sha256": "10fe5332392ab751c56f8714187107440b68a27381ff6b98bb29955038850025"
+      "bytes": 1339,
+      "sha256": "c9aa94289c5c76a4588e504f43fb07baf36ca7db573be6b2171b0e3f847f07b3"
     },
     {
       "path": "src/lib.rs",
-      "bytes": 112,
-      "sha256": "fc4a23a295161070bd4786346c61e4b7e975ef664d18c8e61cac7b929dc40a73"
+      "bytes": 147,
+      "sha256": "686a7adae5c129fbb7cc0fe9339df99d1c21bf83221252cce07ee2f12523bb3b"
+    },
+    {
+      "path": "src/pci_raw.rs",
+      "bytes": 2496,
+      "sha256": "9e29a7285c450a5e4d717a71bb1aaf468a26467db65bebd56e6c87c19dbb31fb"
     },
     {
       "path": "src/pci_translator.rs",
@@ -65,6 +80,11 @@
       "path": "tests/hal_translate.rs",
       "bytes": 4283,
       "sha256": "bf4adbdba90240990816df51fc4d31af864e3146e5cfcc9519eb07f1ba5cc43e"
+    },
+    {
+      "path": "tests/raw_firmware.rs",
+      "bytes": 4734,
+      "sha256": "29a6241fd751927570445d86cac9c2be59da3693fc6d344b2a7ca4e6b7489586"
     }
   ]
 }
