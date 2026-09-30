@@ -1,5 +1,6 @@
 {
-  "schema": "26x86.repository-files/1",
+  "schema": "26x86.repository-files/2",
+  "source_revision": "65909c23d2c62001c293a6c8a2f4ff024004100c",
   "files": [
     {
       "path": ".gitattributes",
@@ -19,7 +20,7 @@
     {
       "path": "Cargo.toml",
       "bytes": 268,
-      "sha256": "c967959335833080189b63fec78fd243f7116f638880dec10f3d18d7d3266a1c"
+      "sha256": "2b648797ceee09c40f3f1fb5bfd51bfbea0e67223d2bbfa488c4775e0a49e441"
     },
     {
       "path": "LICENSE.txt",
@@ -28,13 +29,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 467,
-      "sha256": "be7a30f29d7b5f80b3c977d58aba9853001efc0d5ac4e3ebcba9d60a574ff473"
+      "bytes": 1067,
+      "sha256": "fef3c5354768aad2329aa4cfbd6e7e149e282670d7abdafd2beb6e9ecd463cf6"
     },
     {
       "path": "examples/inspect_firmware.rs",
       "bytes": 6807,
       "sha256": "3c24a1dc026d1f1d683ae07cceae5dc07f45828ea97c5efc066a23f3594fd7cf"
+    },
+    {
+      "path": "repository.json",
+      "bytes": 1606,
+      "sha256": "2f625014bfbd8098458f5170b59459b05389f0cca858c0f74162a98339283c58"
     },
     {
       "path": "src/acpi_raw.rs",
