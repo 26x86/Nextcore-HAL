@@ -1,0 +1,18 @@
+{
+  "schema": "NextCore.repository/1",
+  "name": "Nextcore-HAL",
+  "owner": "26x86",
+  "public": true,
+  "role": "nextcore-module",
+  "crate": "nextcore-hal",
+  "description": "public ACPI, PCI, SMBIOS and device-tree metadata",
+  "source_path": "nextcore/crates/nextcore-hal",
+  "source_commit": "dcc90013109eac694ccbf997b1e44a7018480f78",
+  "depends_on": [],
+  "initial_tag": "NextCore-Nextcore-HAL-v0.1.0",
+  "generated_utc": "2026-09-08T06:40:13.288109+00:00",
+  "release_tag": "NextCore-Nextcore-HAL-v0.1.1",
+  "previous_head": "e00dcb4a731505de8e15d89900f3298eb05feca8",
+  "dependency_tags": {},
+  "export_method": "immutable git objects applied to existing main; manifest dependency rewrite only"
+}
