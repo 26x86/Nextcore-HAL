@@ -1,0 +1,362 @@
+{
+  "schema": 1,
+  "module": "nextcore-hal",
+  "public_repository": "https://github.com/26x86/Nextcore-HAL.git",
+  "current_published_prior_handoff_revision": "d3ba5912e5c03d7e894433d5ed3fd24fca281ecc",
+  "export_commit": "039fa3f9665a2e2d07b8f0939b8fd382137f731e",
+  "export_commit_parents": [],
+  "export_tree": "5845743bfd967dc5c646f20ef126b031b8919ccc",
+  "original_public_parent_source_commit": "93e4a9ebc1a05e2cbec78125a0186ca1b71d98d6",
+  "original_public_source_tree_URL": "https://github.com/26x86/26x86/tree/93e4a9ebc1a05e2cbec78125a0186ca1b71d98d6/nextcore/crates/nextcore-hal",
+  "archive_kind": "Historical unfinished public module export variants; original unrelated Git commit identity retained by ordinary merge",
+  "current_active_source_modified": false,
+  "preservation_scope": "Exact older public variants differing from current module source, plus the original source license. Export paths already equal to active public source remain preserved by both Git histories.",
+  "attribute_boundary": "Historical .gitattributes and .gitignore are stored as inert metadata filenames. Original paths remain in the original export commit and in each file record. Archive-only attributes disable text normalization and whitespace diagnostics on preserved variants.",
+  "verification_boundary": "Source byte and Git ancestry verification only. No compiler, test, EFI, guest boot, macOS, Metal or device acceptance was executed by this archival task.",
+  "source_tree_inventory": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "5dabb2b27b17fb46a94713256fba0372eaa68784",
+      "bytes": 28,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "568315441fd51ebda8ddb3fe059da309011a52ac",
+      "bytes": 270,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "ca98cd96efdc228b0c0d0e264bfc0ce9ddadfdd7",
+      "bytes": 20,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "9417014d22085b6544886a9cf9176dc04e2fdd86",
+      "bytes": 268,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "f7389913f3fd1cb41276bb098a352b0e27e7e879",
+      "bytes": 1851,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "d696b5ee571437984cfea00f9375327afa161b3a",
+      "bytes": 314,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "examples/inspect_firmware.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "5766563f45352517e988e5013d01fd84c342716d",
+      "bytes": 6807,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "repository-files.json",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "a4b1a316a280bc2000f32272a4284a0824e5dac2",
+      "bytes": 2633,
+      "blob_already_in_published_prior_history": false
+    },
+    {
+      "path": "repository.json",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "5701d54f5637b65a5f50da18c0f46000241d7bb6",
+      "bytes": 463,
+      "blob_already_in_published_prior_history": false
+    },
+    {
+      "path": "src/acpi_raw.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "bb6bdf907f42abb37bfaff22c516341e11f45021",
+      "bytes": 15399,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/acpi_translator.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "837bfa90b1cfe82d13a84a695ff3c98445709094",
+      "bytes": 1875,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/device_tree.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "4e26093e27dc5ea5d30b1ac8afa1aeb64aee1f88",
+      "bytes": 4715,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/error.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "2caa1406848fdbaac0bed8ded16715c32c1b5f2a",
+      "bytes": 1339,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "4eed08b28d8fbbe8da89ea6ba504b45200a62982",
+      "bytes": 147,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/pci_raw.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "b3fdc6396a5896220c04441cc65e5ca1d2f9bd3d",
+      "bytes": 2496,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/pci_translator.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "28cc7cdfd0079eb922eaee810fcb90b0924e3450",
+      "bytes": 2836,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/smbios_translator.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "ae867b3279c35f49963cf5206b33416a2af1a53a",
+      "bytes": 3908,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "tests/hal_translate.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "e750bceb63a584098f514fdc4445f0b15fb53783",
+      "bytes": 4283,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "tests/raw_firmware.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "3fd4597bccd2658b2a7a8498923075df6cec792a",
+      "bytes": 4734,
+      "blob_already_in_published_prior_history": true
+    }
+  ],
+  "original_public_source_comparisons": [
+    {
+      "export_path": ".gitattributes",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/.gitattributes",
+      "original_blob": "5dabb2b27b17fb46a94713256fba0372eaa68784",
+      "export_blob": "5dabb2b27b17fb46a94713256fba0372eaa68784",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": ".github/workflows/ci.yml",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/.github/workflows/ci.yml",
+      "original_blob": "e44cd2c728a8dce41fe33c8e5e8a21c648cad034",
+      "export_blob": "568315441fd51ebda8ddb3fe059da309011a52ac",
+      "exact_original_public_source_blob": false
+    },
+    {
+      "export_path": ".gitignore",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/.gitignore",
+      "original_blob": "ca98cd96efdc228b0c0d0e264bfc0ce9ddadfdd7",
+      "export_blob": "ca98cd96efdc228b0c0d0e264bfc0ce9ddadfdd7",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "Cargo.toml",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/Cargo.toml",
+      "original_blob": "9417014d22085b6544886a9cf9176dc04e2fdd86",
+      "export_blob": "9417014d22085b6544886a9cf9176dc04e2fdd86",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "LICENSE.txt",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/LICENSE.txt",
+      "original_blob": "f7389913f3fd1cb41276bb098a352b0e27e7e879",
+      "export_blob": "f7389913f3fd1cb41276bb098a352b0e27e7e879",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "README.md",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/README.md",
+      "original_blob": "b809262b9f5f8ab6ce265c739ae832081bdc9718",
+      "export_blob": "d696b5ee571437984cfea00f9375327afa161b3a",
+      "exact_original_public_source_blob": false
+    },
+    {
+      "export_path": "examples/inspect_firmware.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/examples/inspect_firmware.rs",
+      "original_blob": "5766563f45352517e988e5013d01fd84c342716d",
+      "export_blob": "5766563f45352517e988e5013d01fd84c342716d",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "repository-files.json",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/repository-files.json",
+      "original_blob": "bae8ce5dcd56413b14b4b6a85aa3e9254da05a0b",
+      "export_blob": "a4b1a316a280bc2000f32272a4284a0824e5dac2",
+      "exact_original_public_source_blob": false
+    },
+    {
+      "export_path": "repository.json",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/repository.json",
+      "original_blob": "34ebd1cd6e53d3867c1eb03384eb842fe5f58b23",
+      "export_blob": "5701d54f5637b65a5f50da18c0f46000241d7bb6",
+      "exact_original_public_source_blob": false
+    },
+    {
+      "export_path": "src/acpi_raw.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/src/acpi_raw.rs",
+      "original_blob": "bb6bdf907f42abb37bfaff22c516341e11f45021",
+      "export_blob": "bb6bdf907f42abb37bfaff22c516341e11f45021",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/acpi_translator.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/src/acpi_translator.rs",
+      "original_blob": "837bfa90b1cfe82d13a84a695ff3c98445709094",
+      "export_blob": "837bfa90b1cfe82d13a84a695ff3c98445709094",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/device_tree.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/src/device_tree.rs",
+      "original_blob": "4e26093e27dc5ea5d30b1ac8afa1aeb64aee1f88",
+      "export_blob": "4e26093e27dc5ea5d30b1ac8afa1aeb64aee1f88",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/error.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/src/error.rs",
+      "original_blob": "2caa1406848fdbaac0bed8ded16715c32c1b5f2a",
+      "export_blob": "2caa1406848fdbaac0bed8ded16715c32c1b5f2a",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/lib.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/src/lib.rs",
+      "original_blob": "4eed08b28d8fbbe8da89ea6ba504b45200a62982",
+      "export_blob": "4eed08b28d8fbbe8da89ea6ba504b45200a62982",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/pci_raw.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/src/pci_raw.rs",
+      "original_blob": "b3fdc6396a5896220c04441cc65e5ca1d2f9bd3d",
+      "export_blob": "b3fdc6396a5896220c04441cc65e5ca1d2f9bd3d",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/pci_translator.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/src/pci_translator.rs",
+      "original_blob": "28cc7cdfd0079eb922eaee810fcb90b0924e3450",
+      "export_blob": "28cc7cdfd0079eb922eaee810fcb90b0924e3450",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/smbios_translator.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/src/smbios_translator.rs",
+      "original_blob": "ae867b3279c35f49963cf5206b33416a2af1a53a",
+      "export_blob": "ae867b3279c35f49963cf5206b33416a2af1a53a",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "tests/hal_translate.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/tests/hal_translate.rs",
+      "original_blob": "e750bceb63a584098f514fdc4445f0b15fb53783",
+      "export_blob": "e750bceb63a584098f514fdc4445f0b15fb53783",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "tests/raw_firmware.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-hal/tests/raw_firmware.rs",
+      "original_blob": "3fd4597bccd2658b2a7a8498923075df6cec792a",
+      "export_blob": "3fd4597bccd2658b2a7a8498923075df6cec792a",
+      "exact_original_public_source_blob": true
+    }
+  ],
+  "files": [
+    {
+      "original_relative_path": ".github/workflows/ci.yml",
+      "archive_relative_path": ".github/workflows/ci.yml",
+      "source_revision": "039fa3f9665a2e2d07b8f0939b8fd382137f731e",
+      "git_blob_sha1": "568315441fd51ebda8ddb3fe059da309011a52ac",
+      "sha256": "67d4c7dcfc4e1c126f1e92bec4e0dee72b8f71f436182af8f4cb26e5627c8136",
+      "bytes": 270,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    },
+    {
+      "original_relative_path": "README.md",
+      "archive_relative_path": "README.md",
+      "source_revision": "039fa3f9665a2e2d07b8f0939b8fd382137f731e",
+      "git_blob_sha1": "d696b5ee571437984cfea00f9375327afa161b3a",
+      "sha256": "44ea512b408290a8c97e3f763e7068619e729d4d7912a3fc2b4f5467027b5ded",
+      "bytes": 314,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    },
+    {
+      "original_relative_path": "repository-files.json",
+      "archive_relative_path": "repository-files.json",
+      "source_revision": "039fa3f9665a2e2d07b8f0939b8fd382137f731e",
+      "git_blob_sha1": "a4b1a316a280bc2000f32272a4284a0824e5dac2",
+      "sha256": "363a2cd8daddbfb19d98fc9843e2fdf7bea34bbfba49ba8548e37ef4359ff8b6",
+      "bytes": 2633,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    },
+    {
+      "original_relative_path": "repository.json",
+      "archive_relative_path": "repository.json",
+      "source_revision": "039fa3f9665a2e2d07b8f0939b8fd382137f731e",
+      "git_blob_sha1": "5701d54f5637b65a5f50da18c0f46000241d7bb6",
+      "sha256": "8af6b5c511f41e5704dee9a06d820c7ace1485b31d159c968fdd3c4ae6e2b303",
+      "bytes": 463,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    },
+    {
+      "original_relative_path": "LICENSE.txt",
+      "archive_relative_path": "LICENSE.txt",
+      "source_revision": "039fa3f9665a2e2d07b8f0939b8fd382137f731e",
+      "git_blob_sha1": "f7389913f3fd1cb41276bb098a352b0e27e7e879",
+      "sha256": "77c458ccb6116400cf960f8951630bc3b8b34731b56ffbd736b95c2b78449104",
+      "bytes": 1851,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    }
+  ]
+}
