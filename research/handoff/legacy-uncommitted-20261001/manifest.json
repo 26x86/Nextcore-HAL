@@ -60,5 +60,45 @@
       "git_mode": "100644",
       "license_path": "LICENSE.txt"
     }
-  ]
+  ],
+  "history_preservation": {
+    "verified_local_revision": "506311c2f81a55af6051cebcd813177dc3059097",
+    "source_baseline_reachable": true,
+    "all_observed_legacy_refs_and_HEAD_reachable": true,
+    "legacy_refs": [
+      {
+        "ref": "refs/heads/main",
+        "sha": "9c1cd8dfff33478e32668c5cd181dd094ec2881b",
+        "reachable": true
+      },
+      {
+        "ref": "refs/remotes/origin/HEAD",
+        "sha": "9c1cd8dfff33478e32668c5cd181dd094ec2881b",
+        "reachable": true
+      },
+      {
+        "ref": "refs/remotes/origin/main",
+        "sha": "9c1cd8dfff33478e32668c5cd181dd094ec2881b",
+        "reachable": true
+      },
+      {
+        "ref": "refs/tags/26x86-Nextcore-HAL-v0.1.0",
+        "sha": "e00dcb4a731505de8e15d89900f3298eb05feca8",
+        "reachable": true
+      },
+      {
+        "ref": "refs/tags/26x86-Nextcore-HAL-v0.1.1",
+        "sha": "9c1cd8dfff33478e32668c5cd181dd094ec2881b",
+        "reachable": true
+      },
+      {
+        "ref": "HEAD",
+        "sha": "9c1cd8dfff33478e32668c5cd181dd094ec2881b",
+        "reachable": true
+      }
+    ],
+    "missing_commit_identities_preserved": 0,
+    "remote_publication_status": "Not performed by this local handoff task"
+  },
+  "ancestry_status": "Frozen source baseline and every observed legacy ref are present in the verified local handoff ancestry; remote publication still requires independent verification."
 }
